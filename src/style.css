@@ -1,14 +1,17 @@
 body {
-  background-color: rgb(234, 232, 235, 0.5);
+  background-image: url("images/landscape.jpg");
+  background-size: cover;
   font-family: Roboto, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 a {
-  color: rgba(162, 99, 164, 1);
+  color: rgb(117, 37, 119);
 }
 
 .weather-app {
-  background: rgba(223, 217, 213, 0.795);
+  background: rgba(223, 217, 213, 0.65);
   margin: 50px auto;
   max-width: 600px;
   padding: 30px;
@@ -17,7 +20,7 @@ a {
 }
 
 header {
-  border-bottom: 1px solid rgb(234, 232, 235, 0.5);
+  border-bottom: 1px solid rgb(234, 232, 235, 0.6);
   padding: 0 0 10px 0;
 }
 
@@ -61,7 +64,7 @@ strong {
 .weather-app-details {
   font-size: 16px;
   line-height: 25px;
-  color: rgb(73, 72, 72);
+  color: rgba(22, 22, 22, 0.7);
 }
 
 main {
@@ -104,7 +107,8 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgb(9, 3, 63);
+  font-weight: 900;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -116,7 +120,7 @@ main {
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: rgba(118, 9, 124, 0.773);
+  color: rgb(9, 3, 63);
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -131,6 +135,6 @@ footer {
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
   font-weight: 500;
 }
