@@ -40,11 +40,13 @@ strong {
   padding: 30px;
   margin-left: 5px;
   color: white;
+  transition: transform 0.3s ease-in-out;
 }
 
 .search-form-button:hover {
   cursor: pointer;
   background-color: rgb(167, 143, 189);
+  transform: scale(1.1);
 }
 
 .search-form-input,
